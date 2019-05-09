@@ -116,7 +116,7 @@ func (m *ownerManager) Cancel() {
 }
 
 // ManagerSessionTTL is the etcd session's TTL in seconds. It's exported for testing.
-var ManagerSessionTTL = 60
+var ManagerSessionTTL = 45
 
 // setManagerSessionTTL sets the ManagerSessionTTL value, it's used for testing.
 func setManagerSessionTTL() error {
